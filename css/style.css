@@ -1,0 +1,28 @@
+/*Especificações para página inteira*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hr */
+
+hr {
+    
+}
+
+
+/*Especificações para os "titulos" */
+
+h1, h2, h3 {
+    color: #5b9dcf;
+}
+
+.title {
+    text-align: center;
+}
+
+/* Links */
+
+a:hover, a:visited {
+    background-color: aliceblue;
+}
+
