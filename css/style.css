@@ -3,6 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
 /* hr */
 
 hr {
@@ -13,7 +17,12 @@ hr {
 /*Especificações para os "titulos" */
 
 h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
     color: #5b9dcf;
+    
 }
 
 .title {
@@ -22,7 +31,26 @@ h1, h2, h3 {
 
 /* Links */
 
-a:hover, a:visited {
+.link {
+    text-decoration: none;
+    color: blue;
+}
+.link:hover, 
+.link:visited {
     background-color: aliceblue;
+    text-decoration: none;
 }
 
+/*Imagens*/
+
+.imagemhobby {
+    width: 200px;
+    height: 200px;
+    border: 2px solid  #5b9dcf;
+}
+
+/*textoshobby*/
+
+.textohobby {
+    display: block;
+}
